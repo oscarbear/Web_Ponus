@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Ponus</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="primero_header">
+            <a href="./index.html"><img src="./contenido/logo_ponus.JPG" class="logo"></a>
+            <nav class="primer_nav">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./alianzas.html">Alianzas</a></li>
+                    <li><a href="./planes.html">Planes</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main_contacto">
+        <div>
+            <video src="./Contenido/video_contacto.mp4" autoplay loop class="formulario_video"></video>
+            <form action="" method="GET" class="fomulario">
+                <fieldset>
+
+                    <legend>
+                        <h2>FORMULARIO DE CONTACTO</h2>
+                    </legend>
+
+                    <div>
+                        <label for="usuario">Nombre y Apellido </label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Nombre completo" required>
+                    </div>
+                    <div>
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Empresa" required>
+                    </div>
+                    <div>
+                        <label for="userMail">Correo</label>
+                        <input type="email" name="userMail" id="userMail" placeholder="Deje su correo" required>
+                    </div>
+                    <div>
+                        <label for="cargo">Cargo</label>
+                        <input type="text" name="cargo" id="cargo" placeholder="Cargo en al empresa">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="comments">Comentarios</label>
+                        </div>
+                        <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Información adicional que requiera que tengamos en cuenta"></textarea>
+                    </div>
+                    <label for="horario">Horario de contacto</label>
+                    <select name="horario" id="" required>
+                    <option value="" disabled selected>Seleccione horario</option>
+                    <option value="L">Manaña</option>
+                    <option value="M">Tarde</option>
+                    <option value="S">Noche</option>
+                </select>
+                    <div>
+                        <label for="aceptar">Aceptar terminos</label>
+                        <input type="checkbox" name="aceptar" value="1" required>
+                    </div>
+
+                    <br>
+                    <input type="submit" value="Enviar" class="boton">
+                    <input type="reset" value="Limpiar" class="boton">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <address>
+            <li>Ponus</li>
+            <br>
+            <li>Correo: <a href="mailto:ponus@gmail.com">ponus@gmail.com</a></li> 
+            <br> 
+            <li>Celular: 3123456789</li>
+            <br>
+            <li>Dirección: Calle 47 No. 74-89 Bogotá - Colombia</li>
+            
+        </address>
+    </footer>
+
+</body>
+
+</html>
